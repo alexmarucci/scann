@@ -1,0 +1,23 @@
+{
+  "name": "scann",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "localtunnel": "^2.0.2",
+    "prettier": "^3.2.5",
+    "vite": "^5.2.0"
+  },
+  "dependencies": {
+    "@opencv.js/wasm": "^4.4.0",
+    "@techstark/opencv-js": "^4.9.0-release.3",
+    "@tensorflow/tfjs": "^4.19.0",
+    "jscanify": "^1.2.0",
+    "opencv-wasm": "^4.3.0-10"
+  }
+}
